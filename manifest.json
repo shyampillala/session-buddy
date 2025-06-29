@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Session Buddy",
+  "version": "1.0",
+  "description": "Save and restore Chrome tab sessions.",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    
+    "default_icon": {
+      "16": "favicon.ico",
+      "48": "favicon.ico",
+      "128": "favicon.ico"
+
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+
+      "16": "favicon.ico",
+      "48": "favicon.ico",
+      "128": "favicon.ico"
+  }
+}
